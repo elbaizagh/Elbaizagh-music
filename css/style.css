@@ -1,0 +1,154 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1E1E1E;
+}
+
+.title {
+  font-size: 1rem;
+  text-align: center;
+  color: #D8E9A8;
+  letter-spacing: 9px;
+  position: fixed;
+  top:0;
+  left: -50%;
+  right: -50%;
+  background-color:#1e1e1e ;
+  height: 35vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+span {
+  color: #4E9F3D;
+}
+
+.album1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.music1 {
+  background-color: #3e7732b0;
+  width: 300px;
+  height: 280px;
+  border-radius: 40px 0;
+}
+
+.music1 .img {
+  width: 100%;
+  height: 50%;
+  border-radius: 40px 0 0;
+}
+
+.music1 h2,
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: #D8E9A8;
+}
+
+h4 {
+  color: white;
+}
+
+.music1 .play {
+  padding: 15px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+
+.over {
+  height: 58vh;
+  overflow: scroll;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+
+#timer {
+  font-size: large;
+  color: white;
+}
+
+.slider-container {
+  margin-top: 0px;
+  text-align: center;
+}
+
+#timeSlider {
+  width: 80%;
+}
+
+#timeSlider {
+  width: 70vw;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #555;
+  outline: none;
+  border-radius: 5px;
+}
+
+#timeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#timeSlider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+button:hover {
+  background-color: #45a049ac;
+}
+#currentTrackImage {
+  width: 120px;
+  height: 120px; 
+  border-radius: 50%;
+  margin: 10px;
+}
+.slider-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

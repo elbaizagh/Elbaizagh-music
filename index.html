@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>music</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="title">
+    <h1><span>El</span>Baizagh<br>Music <span>website</span></h1>
+  <div class="slider-container">
+    <img id="currentTrackImage" src="">
+    <div id="timer"></div>
+    <input type="range" id="timeSlider" min="0" step="1" value="0">
+  </div>
+</div>
+
+  <div class="over">
+    <div id="musicContainer" class="album1">
+    </div>
+    <div style="  position: fixed;
+    bottom: 20px;right: 42.5%;">
+      <button onclick="previousTrack()">Previous Track</button>
+      <button onclick="nextTrack()">Next Track</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
